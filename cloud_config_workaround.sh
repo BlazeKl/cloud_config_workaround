@@ -65,6 +65,10 @@ case ${SteamAppId} in
         CONFIG_PATH="Documents/My Games/CRISIS CORE FINAL FANTASY VII REUNION/Steam/${STEAMID}"
         CONFIG="SAVEDATA_SYSTEM.sav"
         ;;
+    1778820)
+        CONFIG_PATH="AppData/Local/TEKKEN 8/Saved/Config/Windows/"
+        CONFIG="GameUserSettings.ini"
+        ;;
     *)
         CONFIG="error"
         ;;
